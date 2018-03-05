@@ -20,7 +20,7 @@ mongoose.connect("mongodb://ymendez:ymendez15@ds229648.mlab.com:29648/femtesa", 
     } else {
         console.log("La conexion a la BD esta correcta");
         server.listen(port, function () {
-            console.log("Servidor del api Rest " + port);
+            console.log("Servidor del api Rest ");
         });
     }
 });
