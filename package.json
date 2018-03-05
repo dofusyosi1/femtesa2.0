@@ -1,0 +1,33 @@
+{
+  "name": "femtesa",
+  "version": "1.0.0",
+  "description": "Recolector de precios por mes",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yosimar Mendez Huicochea",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "box-node-sdk": "^1.12.1",
+    "box-ui-elements": "^3.6.1",
+    "email-templates": "^3.3.4",
+    "express": "^4.16.2",
+    "express-mailer": "^0.3.1",
+    "jwt-simple": "^0.5.1",
+    "md5": "^2.2.1",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.4",
+    "node-cron": "^1.2.1",
+    "node-fetch": "^2.0.0",
+    "nodemailer": "^4.4.2",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0",
+    "sib-api-v3-sdk": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
